@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400|Raleway:700');
+
+*, * :before, * :after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: all .2s ease-in;
+}
+
+header {
+  background: #024869 url("img/header.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 50px 192px;
+
+  .header {
+    position: relative;
+    &__icon {
+      display: inline-block;
+    }
+    &__navmenu {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      &-link {
+        font-family: Lato, sans-serif;
+        color: #fffffe;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: left;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin-right: 45px;
+        &:hover {
+          color: #8BCCBC;
+        }
+      }
+      &-link:last-child {
+        margin-right: 0;
+      }
+    }
+    &__title {
+      font-family: Raleway, sans-serif;
+      color: #ffffff;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 250px;
+    }
+    &__hr {
+      width: 85px;
+      border-bottom: 2px solid white;
+      margin: 0 auto;
+    }
+    &__content {
+      font-family: Lato, sans-serif;
+      color: #fffefe;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+    }
+    &__scroll {
+      text-align: center;
+      margin: 100px auto;
+
+    }
+  }
+}
+
+main {
+
+  .main {
+    width: 100%;
+    height: auto;
+    padding: 100px 192px;
+    &__title {
+      font-family: Raleway, sans-serif;
+      color: #222222;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    &__hr {
+      width: 85px;
+      border-bottom: 2px solid #222222;
+      margin: 0 auto;
+    }
+    &__row {
+      display: inline-block;
+      width: 30%;
+      float: left;
+      margin-top: 75px;
+      text-decoration: none;
+      margin-right: 5%;
+      &:hover {
+        background: rgba(128, 152, 163, .5);
+        color: black;
+        border-radius: 10px;
+      }
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &-content {
+        width: 100%;
+        height: 325px;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        &--img {
+          margin: 0 auto;
+        }
+        &--title {
+          font-family: Lato, sans-serif;
+          color: #222222;
+          font-size: 24px;
+          font-weight: 400;
+          line-height: 24px;
+          text-align: center;
+        }
+        &--text {
+          font-family: Lato, sans-serif;
+          color: #222222;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+
+    }
+
+  }
+  .clear {
+    clear: both;
+  }
+  .info {
+    background: #393939 url("img/section.png");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    padding: 100px 192px;
+    &__container {
+      display: inline-block;
+      width: 60%;
+    }
+    &__title {
+      font-family: Lato, sans-serif;
+      color: #ffffff;
+      font-size: 44.67px;
+      font-weight: 400;
+      line-height: 60px;
+      text-transform: uppercase;
+      margin-bottom: 0;
+      margin-top: 53px;
+    }
+    &__content {
+      font-family: Lato, sans-serif;
+      color: #ffffff;
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 28px;
+      text-align: left;
+    }
+    &__link {
+      display: inline-block;
+      font-family: Lato, sans-serif;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 28px;
+      margin-top: 65px;
+      &:hover {
+        color: #8BCCBC;
+      }
+    }
+
+  }
+
+}
+
+.section4 {
+  width: 100%;
+  height: auto;
+  padding: 100px 192px;
+  &__title {
+    font-family: Raleway, sans-serif;
+    color: #222222;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__hr {
+    width: 85px;
+    border-bottom: 2px solid #222222;
+    margin: 0 auto;
+  }
+  &__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    //height: 420px;
+    &-img {
+      display: inline-block;
+      height: 420px;
+      width: 370px;
+      margin-top: 75px;
+      text-decoration: none;
+
+      &:first-of-type {
+        background: url("img/Layer 17.png");
+      }
+      &:nth-child(2) {
+        background: url("img/Layer 16.png");
+      }
+      &:last-child {
+        background: url("img/Layer 21.png");
+        margin-right: 0;
+      }
+      & a{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        font-family: Lato,sans-serif;
+        color:  #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: center;
+        background-color:  rgba(0, 0, 0, 0.75);
+        opacity: 0;
+        justify-content: center ;
+        flex-direction: column;
+        &:hover{
+          opacity: 1;
+        }
+      }
+    }
+  }
+  &__btn{
+    display: block;
+    font-family: Lato, sans-serif;
+    color:  #222222;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    width: 370px;
+    height: 60px;
+  vertical-align: middle;
+    text-transform: uppercase;
+    background: transparent;
+    border: 5px solid #222222;
+    margin: 75px auto 0;
+  }
+}
+footer {
+  background: #024869 url("img/footer.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  padding: 50px 192px;
+  .footer{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &__title {
+      font-family: Raleway, sans-serif;
+      color: #fff;
+      font-size: 35px;
+      font-weight: 700;
+      line-height: 60px;
+      text-align: center;
+      text-transform: uppercase;
+      margin: 0;
+    }
+    &__hr {
+      width: 85px;
+      border-bottom: 2px solid #fff;
+      margin: 0 auto;
+    }
+    &__icons{
+      color: white;
+      font-size: 24px;
+      text-align: center;
+    }
+  }
+}
