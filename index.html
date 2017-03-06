@@ -14,10 +14,10 @@
         <div class="header__icon"><img src="img/Logo.png" height="18" width="109"/></div>
         <div class="header__navmenu">
             <a href="#" class="header__navmenu-link">HELLO</a>
-            <a href="#" class="header__navmenu-link">SERVICES </a>
-            <a href="#" class="header__navmenu-link"> ABOUT US</a>
-            <a href="#" class="header__navmenu-link">OUR WORK</a>
-            <a href="#" class="header__navmenu-link"> CONTACT US</a>
+            <a href="#our_service" class="header__navmenu-link">SERVICES </a>
+            <a href="#about_us" class="header__navmenu-link" > ABOUT US</a>
+            <a href="#our_work" class="header__navmenu-link">OUR WORK</a>
+            <a href="#contact_us" class="header__navmenu-link"> CONTACT US</a>
         </div>
         <h1 class="header__title"> we’re creative agency </h1>
         <div class="header__hr"></div>
@@ -63,7 +63,7 @@
         </a>
         <div class="clear"></div>
     </div>
-    <section class="info">
+    <section class="info" id="about_us">
         <div class="info__container">
             <h3 class="info__title">dolore magna aliqua</h3>
             <div class="info__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
@@ -73,7 +73,7 @@
             <a href="#" class="info__link">more</a>
         </div>
     </section>
-    <div class="section4">
+    <div class="section4" id="our_work">
         <h2 class="section4__title">our work</h2>
         <div class="section4__hr"></div>
         <div class="section4__row">
@@ -86,21 +86,30 @@
 
 </main>
 <footer>
-<div class="footer">
-    <h2 class="footer__title">get in touch</h2>
-    <div class="footer__hr"></div>
-    <div class="footer__icons">
-        <i class="ion-social-twitter"></i>
-        <i class="ion-social-facebook"></i>
-        <i class="ion-social-twitter"></i>
-        <i class="ion-social-twitter"></i>
-        <i class="ion-social-twitter"></i>
+    <div class="footer" id="contact_us">
+        <h2 class="footer__title">get in touch</h2>
+        <div class="footer__hr"></div>
+        <div class="footer__icons">
+            <i class="ion-social-twitter"></i>
+            <i class="ion-social-facebook"></i>
+            <i class="ion-social-linkedin"></i>
+            <i class="ion-social-vimeo"></i>
+            <i class="ion-social-youtube"></i>
 
+        </div>
+        <form class="footer__form" action="index.html" method="get">
+            <label>
+                <input type="text" name="text" placeholder="Name" class="footer__form-input">
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="Email" class="footer__form-input">
+            </label>
+            <label>
+                <input type="text" name="message" placeholder="Message" class="footer__form-input footer__form-input-width">
+            </label>
+            <button class="footer__form-btn" type="submit">send</button>
+        </form>
     </div>
-    <fieldset class="footer_form">
-
-    </fieldset>
-</div>
 </footer>
 
 </body>
